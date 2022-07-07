@@ -25,7 +25,7 @@ function esp_create_text(color, text, parts)
     TextLabel.TextScaled = true  
 end
 
-_G.ISLANDS = {
+ISLANDS = {
     Town_of_Beginnings = CFrame.new(964.650391, 9.44083023, 1194.3457, -0.313947469, -0.0728820413, 0.946639001, -3.59933949e-08, 0.997049451, 0.0767631382, -0.94944036, 0.0240995586, -0.313021153),
     Marine_Fort_F1 = CFrame.new(2901.85522, 19.9107838, -994.512817, 0.982177377, 0.00496421754, -0.187890768, 9.03157868e-08, 0.999651194, 0.0264120214, 0.187956333, -0.0259413049, 0.98183471),
     Sandora = CFrame.new(-1248.75305, 11.9811859, 1169.5072, -0.98561424, 0.00879764371, -0.1687814, -1.62755001e-08, 0.998644292, 0.052053906, 0.16901055, 0.0513050705, -0.984278023),
@@ -54,140 +54,140 @@ _G.island_esp_enabled = true
 
 function create_parts()
     local Town_of_Beginnings = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Town_of_Beginnings.CFrame = CFrame.new(_G.ISLANDS.Town_of_Beginnings)
+    Town_of_Beginnings.CFrame = CFrame.new(ISLANDS.Town_of_Beginnings)
     Town_of_Beginnings.Name = "Town of Beginnings"
     Town_of_Beginnings.Transparency = 1
     Town_of_Beginnings.Anchored = true
     Town_of_Beginnings.CanCollide = false
 
     local Marine_Fort_F1 = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Marine_Fort_F1.CFrame = CFrame.new(_G.ISLANDS.Marine_Fort_F1)
+    Marine_Fort_F1.CFrame = CFrame.new(ISLANDS.Marine_Fort_F1)
     Marine_Fort_F1.Name = "Marine Fort F1"
     Marine_Fort_F1.Transparency = 1
     Marine_Fort_F1.Anchored = true
     Marine_Fort_F1.CanCollide = false
 
     local Sandora = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Sandora.CFrame = CFrame.new(_G.ISLANDS.Sandora)
+    Sandora.CFrame = CFrame.new(ISLANDS.Sandora)
     Sandora.Name = "Sandora"
     Sandora.Transparency = 1
     Sandora.Anchored = true
     Sandora.CanCollide = false
 
     local Roca_Island = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Roca_Island.CFrame = CFrame.new(_G.ISLANDS.Roca_Island)
+    Roca_Island.CFrame = CFrame.new(ISLANDS.Roca_Island)
     Roca_Island.Name = "Roca Island"
     Roca_Island.Transparency = 1
     Roca_Island.Anchored = true
     Roca_Island.CanCollide = false
 
     local Land_Of_The_Sky = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Land_Of_The_Sky.CFrame = CFrame.new(_G.ISLANDS.Land_Of_The_Sky)
+    Land_Of_The_Sky.CFrame = CFrame.new(ISLANDS.Land_Of_The_Sky)
     Land_Of_The_Sky.Name = "Land Of The Sky"
     Land_Of_The_Sky.Transparency = 1
     Land_Of_The_Sky.Anchored = true
     Land_Of_The_Sky.CanCollide = false
 
     local Fishman_Island = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Fishman_Island.CFrame = CFrame.new(_G.ISLANDS.Fishman_Island)
+    Fishman_Island.CFrame = CFrame.new(ISLANDS.Fishman_Island)
     Fishman_Island.Name = "Fishman Island"
     Fishman_Island.Transparency = 1
     Fishman_Island.Anchored = true
     Fishman_Island.CanCollide = false
 
     local Fishman_Cave = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Fishman_Cave.CFrame = CFrame.new(_G.ISLANDS.Fishman_Cave)
+    Fishman_Cave.CFrame = CFrame.new(ISLANDS.Fishman_Cave)
     Fishman_Cave.Name = "Fishman Cave"
     Fishman_Cave.Transparency = 1
     Fishman_Cave.Anchored = true
     Fishman_Cave.CanCollide = false
 
     local Mysterious_Cliff = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Mysterious_Cliff.CFrame = CFrame.new(_G.ISLANDS.Mysterious_Cliff)
+    Mysterious_Cliff.CFrame = CFrame.new(ISLANDS.Mysterious_Cliff)
     Mysterious_Cliff.Name = "Mysterious Cliff"
     Mysterious_Cliff.Transparency = 1
     Mysterious_Cliff.Anchored = true
     Mysterious_Cliff.CanCollide = false
 
     local Gravito_Fort = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Gravito_Fort.CFrame = CFrame.new(_G.ISLANDS.Gravito_Fort)
+    Gravito_Fort.CFrame = CFrame.new(ISLANDS.Gravito_Fort)
     Gravito_Fort.Name = "Gravito Fort"
     Gravito_Fort.Transparency = 1
     Gravito_Fort.Anchored = true
     Gravito_Fort.CanCollide = false
 
     local Shark_Park = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Shark_Park.CFrame = CFrame.new(_G.ISLANDS.Shark_Park)
+    Shark_Park.CFrame = CFrame.new(ISLANDS.Shark_Park)
     Shark_Park.Name = "Shark Park"
     Shark_Park.Transparency = 1
     Shark_Park.Anchored = true
     Shark_Park.CanCollide = false
 
     local Colosseum = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Colosseum.CFrame = CFrame.new(_G.ISLANDS.Colosseum)
+    Colosseum.CFrame = CFrame.new(ISLANDS.Colosseum)
     Colosseum.Name = "Colosseum"
     Colosseum.Transparency = 1
     Colosseum.Anchored = true
     Colosseum.CanCollide = false
 
     local Coco_Island = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Coco_Island.CFrame = CFrame.new(_G.ISLANDS.Coco_Island)
+    Coco_Island.CFrame = CFrame.new(ISLANDS.Coco_Island)
     Coco_Island.Name = "Coco Island"
     Coco_Island.Transparency = 1
     Coco_Island.Anchored = true
     Coco_Island.CanCollide = false
 
     local Restaurant_Baratie = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Restaurant_Baratie.CFrame = CFrame.new(_G.ISLANDS.Restaurant_Baratie)
+    Restaurant_Baratie.CFrame = CFrame.new(ISLANDS.Restaurant_Baratie)
     Restaurant_Baratie.Name = "Restaurant Baratie"
     Restaurant_Baratie.Transparency = 1
     Restaurant_Baratie.Anchored = true
     Restaurant_Baratie.CanCollide = true
 
     local Island_Of_Zou = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Island_Of_Zou.CFrame = CFrame.new(_G.ISLANDS.Island_Of_Zou)
+    Island_Of_Zou.CFrame = CFrame.new(ISLANDS.Island_Of_Zou)
     Island_Of_Zou.Name = "Island Of Zou"
     Island_Of_Zou.Transparency = 1
     Island_Of_Zou.Anchored = true
     Island_Of_Zou.CanCollide = false
 
     local Reverse_Mountain = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Reverse_Mountain.CFrame = CFrame.new(_G.ISLANDS.Reverse_Mountain)
+    Reverse_Mountain.CFrame = CFrame.new(ISLANDS.Reverse_Mountain)
     Reverse_Mountain.Name = "Reverse Mountain"
     Reverse_Mountain.Transparency = 1
     Reverse_Mountain.Anchored = true
     Reverse_Mountain.CanCollide = false
 
     local Kori_Island = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Kori_Island.CFrame = CFrame.new(_G.ISLANDS.Kori_Island)
+    Kori_Island.CFrame = CFrame.new(ISLANDS.Kori_Island)
     Kori_Island.Name = "Kori Island"
     Kori_Island.Transparency = 1
     Kori_Island.Anchored = true
     Kori_Island.CanCollide = false
 
     local Sphinx_Island = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Sphinx_Island.CFrame = CFrame.new(_G.ISLANDS.Sphinx_Island)
+    Sphinx_Island.CFrame = CFrame.new(ISLANDS.Sphinx_Island)
     Sphinx_Island.Name = "Sphinx Island"
     Sphinx_Island.Transparency = 1
     Sphinx_Island.Anchored = true
     Sphinx_Island.CanCollide = false
 
     local Marine_Base_G1 = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Marine_Base_G1.CFrame = CFrame.new(_G.ISLANDS.Marine_Base_G1)
+    Marine_Base_G1.CFrame = CFrame.new(ISLANDS.Marine_Base_G1)
     Marine_Base_G1.Name = "Marine Base G-1"
     Marine_Base_G1.Transparency = 1
     Marine_Base_G1.Anchored = true
     Marine_Base_G1.CanCollide = false
 
     local Orange_Town = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Orange_Town.CFrame = CFrame.new(_G.ISLANDS.Orange_Town)
+    Orange_Town.CFrame = CFrame.new(ISLANDS.Orange_Town)
     Orange_Town.Name = "Orange Town"
     Orange_Town.Transparency = 1
     Orange_Town.Anchored = true
     Orange_Town.CanCollide = false
 
     local Shell_Town = Instance.new("Part", game.workspace[_G.FOLDER_NAME])
-    Shell_Town.CFrame = CFrame.new(_G.ISLANDS.Shell_Town)
+    Shell_Town.CFrame = CFrame.new(ISLANDS.Shell_Town)
     Shell_Town.Name = "Shell Town"
     Shell_Town.Transparency = 1
     Shell_Town.Anchored = true
